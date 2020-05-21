@@ -1,0 +1,136 @@
+*{margin: 0;padding: 0}
+
+#titlecircle{width: 50%;float: left;position:absolute;top: 200px;}
+#titleright{background-image: url("images/titleLeft.png");height:435px;
+width: 58.8%;float:left;top: 273px;position: absolute;right:0px;background-size: cover }
+ #titlelady{position: absolute;width:50%;top: 150px;}
+#title{margin-top: 20px;}
+#navbar ul{position: relative;}
+ #navbar ul li a {padding-right: 50px;}
+#class{margin-top: 900px;height: 200px;width: 100% ;display:inline-block;text-align: center;}
+#class h1{padding-bottom: 20px}
+#class img{padding:0px 92px;}
+#classbtn{text-align: center;width: 50px}
+#classic{margin-top: 300px}
+#classiclady {float: left;width: 40%;position: absolute;left: 70px;margin-top: 55px}
+#classiccircle{position:absolute;width: 50%;}
+
+
+
+
+
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (max-width: 601px) {
+  #navbar ul  {
+    background:#55958e;margin-bottom: 20px;
+  }
+}
+
+
+
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (max-width: 601px) {
+  #navbar ul li a {
+    padding: 20px 30px;color:black;font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 1028px) {
+  #titleright {height:320px;background-size: cover;width: 58.8%;float: right;margin-top: -15px;}
+
+   
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  #titleright {height:250px;background-size: cover;width: 59%;float: right;margin-top: -33px}
+
+   
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 601px) {
+  #titleright {height:200px;background-size: cover;width: 60.8%;float: right;margin-top: 125px;opacity: 0.5}
+
+   
+  
+}
+
+
+
+
+@media only screen and (max-width: 414px) {
+  #titleright {height:119px;background-size: cover;width: 59.1%;float: right;margin-top:-50px;opacity: 0.5;}
+
+   
+  
+}
+
+
+@media only screen and (max-width: 414px) {
+  #titlelady {opacity: 0.5;margin-top: 40px}
+
+   
+  
+}
+
+
+
+
+@media only screen and (max-width: 360px) {
+  #titleright {height:119px;background-size: cover;width: 59.1%;float: right;margin-top:-55px;opacity: 0.7}
+
+   
+  
+}
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+  #titleright {height:105px;background-size: cover;width: 59.1%;float: right;margin-top: 120px;opacity: 0.5}
+
+   
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 360px) {
+  #class h1 {font-size: 24px;}
+
+   
+  
+}
+
+
+@media only screen and (max-width: 360px) {
+  #class img {width: 30%;padding: 0;margin: 0}
+
+   
+  
+}
+
